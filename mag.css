@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu{
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Lucida Sans Regular';
+}
+
+header{
+    background-color: rgb(0, 10, 2);
+    width: 100%;
+    padding: 10px;
+}
+
+.abc{
+    width: 65px;
+}
+
+.logo{
+    width: 180px;
+}
+
+.menu2{
+    width: 40%;
+}
+
+.menu nav a{
+    color: rgb(253, 254, 255);
+    text-decoration: none;
+    padding: 25px;
+    display: inline-block;
+    transition: background .4s;
+}
+
+.menu nav a:hover {
+    background-color: rgb(19, 190, 13);
+
+}
+
+body{
+    background-color: rgb(229, 247, 212);
+}
+
+.plat{
+    width: 25%;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.plata{
+    width: 25%;
+    margin-top: 10px;
+    margin-left: 132px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.mar{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.fota{
+    display: block;
+    margin-top: 25px;
+}
+
+.fotb{
+    display: block;
+}
+
+.fotc{
+    display: block;
+}
+
+.fotd{
+    display: block;
+}
+
+h2 {
+    font-size: 15px;
+    margin-left: 30px;
+    font-family: Arial;
+    margin-bottom: 10px;
+}
+
+.papa {
+    font-size: 15px;
+    margin-left: 30px;
+    font-family: Arial;
+    margin-bottom: 50px;
+}
