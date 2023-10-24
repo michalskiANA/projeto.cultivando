@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(229, 247, 212);
+}
+
+.menu{
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Lucida Sans Regular';
+}
+
+header{
+    background-color: rgb(0, 10, 2);
+    width: 100%;
+    padding: 10px;
+}
+
+.abc{
+    width: 65px;
+}
+
+.logo{
+    width: 180px;
+}
+
+.menu2{
+    width: 40%;
+}
+
+.menu nav a{
+    color: rgb(253, 254, 255);
+    text-decoration: none;
+    padding: 25px;
+    display: inline-block;
+    transition: background .4s;
+}
+
+.menu nav a:hover {
+    background-color: rgb(19, 190, 13);
+
+}
+
+h2{
+    font-size: 35px;
+    font-family: Verdana;
+    color: rgb(6, 12, 0);
+    margin-top: 60px;
+    margin-left: 80px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+
+.primeiro{
+    font-size: 20px;
+    font-family: Arial;
+    margin-top: 35px;
+    margin-left: 80px;
+    margin-right: 20px;
+}
+
+.objetivos{
+    font-size: 20px;
+    font-family: Arial;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 90px;
+}
+
+.tre{
+    font-size: 20px;
+    font-family: Arial;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 90px;
+    margin-bottom: 80px;
+
+}
+
+.sla {
+    display: flex;
+}
+
+.pont {
+    display: block;
+}
+
+.platona {
+    width: 37%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 30px;
+}
